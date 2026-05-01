@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordly Dictionary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="search-card">
+            <h1>Wordly Dictionary</h1>
+            <p class="subtitle">Search for a word to see its meaning, pronunciation, examples, and synonyms.</p>
+            
+            <form id="search-form">
+                <div class="input-group">
+                    <input type="text" id="word-input" placeholder="Enter a word...">
+                    <button type="submit" id="search-btn">Search</button>
+                </div>
+                <div id="error-message" class="error-text"></div>
+            </form>
+        </div>
+
+        <div id="result-section" class="result-card hidden">
+            <!-- Data will be injected here via JavaScript -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
