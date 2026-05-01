@@ -1,10 +1,3 @@
-Project title
-Description of the app
-Features implemented
-Instructions on how to run the project
-Technologies used 
-License
-
 # WORDLY DICTIONARY.
 ## INTRODUCTION
 - This is a Single Page Application (SPA)  that enables users to search for a word and retrieve information such as pronunciation, definitions, synonyms, and source details.
